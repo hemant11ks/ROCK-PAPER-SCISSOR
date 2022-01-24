@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Game | Hemant</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <div class="container-1">
+        <h2><strong> Rock, Paper, Scissors !!!</strong></h2>
+        <div class="flex-box-rps" id="flex-box-rps-div">
+            <img id="rock" src="http://images.clipartpanda.com/rock-clipart-clipart-harvestable-resources-rock.png" height="150" width="150" alt="" onclick="rpsGame(this)" />
+            <img id="paper" src="http://images.clipartpanda.com/paper-clipart-nexxuz-Loose-Leaf-Paper.png" height="150" width="150" alt="" onclick="rpsGame(this)" />
+            <img id="scissors" src="https://thumbs.dreamstime.com/b/female-hand-sign-victory-sign-peace-sign-scissors-vector-color-flat-illustration-isolated-white-background-web-83128345.jpg" height="150" width="150" alt="" onclick="rpsGame(this)" />
+        </div>
+        <button class="btn btn-danger" onClick="window.location.reload();">
+        Reset
+      </button>
+
+        <p>
+            Although the game has a lot of complexity to it, the rules to play it are pretty simple. The game is played where players deliver hand signals that will represent the elements of the game; rock, paper and scissors. The outcome of the game is determined
+            by 3 simple rules:
+        </p>
+
+        <ul>
+            <li>Rock wins against scissors.</li>
+            <li>Scissors win against paper.</li>
+            <li>Paper wins against rock.</li>
+        </ul>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
