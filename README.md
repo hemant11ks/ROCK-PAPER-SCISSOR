@@ -1,5 +1,8 @@
 # ROCK-PAPER-SCISSOR
-This project is based on Rock , Paper, Scissors Game. 
+
+Link: https://hemant11ks.github.io/ROCK-PAPER-SCISSOR/
+
+- This project is based on Rock , Paper, Scissors Game. 
 
 ## Intro
 
